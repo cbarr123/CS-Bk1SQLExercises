@@ -1,10 +1,12 @@
-﻿--This is StudentExercises
-CREATE TABLE Students (
+﻿
+--This is StudentExercises
+CREATE TABLE Student (
 	fname varchaR(15),
 	lname varchar(15),
 	slackHandle varchar(25),
 	cohort varchar(20),
-	exercises int(10),
+	exerciseiD int,
+	CONSTRAINT FK_StudentExercise FOREIGN KEY(exerciseId) REFERENCES Exercise(Id)
 )
 
 CREATE TABLE Cohort (
@@ -21,7 +23,7 @@ CREATE TABLE Instructor (
 	specialty varchar(25),
 )
 
-CREATE TABLE Exercises (
+CREATE TABLE Exercise (
 	name varchar(25),
 	language varchar(25)
 )
