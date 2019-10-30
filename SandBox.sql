@@ -1,1 +1,1 @@
-﻿select * from Cohort
+﻿select * from StudentExercise

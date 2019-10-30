@@ -1,4 +1,4 @@
-﻿
+﻿--STEP ONE
 --CREATE TABLE Cohort (
 --	Id int NOT NULL PRIMARY KEY IDENTITY,
 --	CohortName VARCHAR(25),

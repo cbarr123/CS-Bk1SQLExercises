@@ -1,4 +1,5 @@
-﻿--INSERT INTO Cohort (CohortName) VALUES ('Cohort 34');
+﻿--STEP 2-------------------------
+--INSERT INTO Cohort (CohortName) VALUES ('Cohort 34');
 --INSERT INTO Cohort (CohortName) VALUES ('Cohort 33');
 --INSERT INTO Cohort (CohortName) VALUES ('Cohort 35');
 --INSERT INTO Student(Fname, Lname, SlackHandle, CohortId) VALUES ('John', 'Smith', '@js', 1);
@@ -12,4 +13,22 @@
 --INSERT INTO Instructor(Fname, Lname, SlackHandle, CohortId, Specialty) VALUES ('Jenna', 'Solis', '@js', 1, 'Coding');
 --INSERT INTO Instructor(Fname, Lname, SlackHandle, CohortId, Specialty) VALUES ('Bryan', 'Nilsen', '@bn', 1, 'Basketballing');
 --INSERT INTO Instructor(Fname, Lname, SlackHandle, CohortId, Specialty) VALUES ('Jisie', 'David', '@jd', 2, 'CSharping');
+--INSERT INTO Exercise (Ename, Elanguage) VALUES ('Nutshell', 'JavaScript');
+--INSERT INTO Exercise (Ename, Elanguage) VALUES ('React Nutshell', 'React');
+--INSERT INTO Exercise (Ename, Elanguage) VALUES ('Celebrity Tribute', 'HTML');
+--INSERT INTO Exercise (Ename, Elanguage) VALUES ('Welcome to Nashville', 'JavaScript');
+--INSERT INTO Exercise (Ename, Elanguage) VALUES ('Kennel', 'React');
+--INSERT INTO StudentExercise(StudentId, ExerciseId) VALUES ('9', '1');
+--INSERT INTO StudentExercise(StudentId, ExerciseId) VALUES ('9', '2');
+--INSERT INTO StudentExercise(StudentId, ExerciseId) VALUES ('9', '3');
+--INSERT INTO StudentExercise(StudentId, ExerciseId) VALUES ('9', '4');
+--INSERT INTO StudentExercise(StudentId, ExerciseId) VALUES ('10', '5');
+--INSERT INTO StudentExercise(StudentId, ExerciseId) VALUES ('10', '6');
+--INSERT INTO StudentExercise(StudentId, ExerciseId) VALUES ('10', '1');
+--INSERT INTO StudentExercise(StudentId, ExerciseId) VALUES ('10', '2');
 
+--STEP 3
+--STEP 4
+--STEP 6
+--STEP 7
+--STEP 8
